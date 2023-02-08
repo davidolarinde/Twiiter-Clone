@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    border-top: 1px solid gray;
+    display: grid;
+grid-template-columns: auto auto auto;
+}
+.leftnav img {
+    width: 10%;
+
+}
+.leftnav {
+    margin-top: 70px;
+ 
+}
+.middleside {
+    margin-top: 20px;
+    border: 1px solid gray;
+    width: 90%;
+}
+.search-bar {
+    max-width: 500px;
+  padding: 10px 20px;
+    background: rgba(204, 204, 204, 0.609);
+    border-radius: 60px;
+}
+input {
+    outline: 0;
+    border: 0;
+    background: none;
+  
+}
+.images {
+    margin-left: 100px;
+}
+.images img {
+    width: 50%;
+}
